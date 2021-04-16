@@ -11,11 +11,22 @@
 				<v-form>
 					<v-row dense>
 						<v-col>
+							<TextField
+								v-model="email"
+								rules="required|email"
+								label="E-mail"
+							/>
 						</v-col>
 					</v-row>
 
 					<v-row dense>
 						<v-col>
+							<TextField
+								v-model="password"
+								rules="required"
+								label="Password"
+								type="password"
+							/>
 						</v-col>
 					</v-row>
 				</v-form>
@@ -36,12 +47,18 @@
 <script>
 	import { ValidationObserver } from 'vee-validate';
 
+	import TextField from './Fields/TextField.vue';
+
 	export default {
 		components: {
 			ValidationObserver,
+			TextField,
 		},
 		data() {
-			return {};
+			return {
+				email: '',
+				password: '',
+			};
 		},
 		methods: {
 			submit() {

@@ -1,0 +1,38 @@
+{
+	"name": "gerador-formularios-vuejs-2021-04-16",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build",
+		"lint": "vue-cli-service lint --no-fix",
+		"bundle-report": "vue-cli-service build --report"
+	},
+	"dependencies": {
+		"core-js": "3.10.1",
+		"vee-validate": "3.4.5",
+		"vue": "2.6.12",
+		"vuetify": "2.4.0",
+		"vuex": "3.6.2"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "12.1.1",
+		"@commitlint/config-conventional": "12.1.1",
+		"@vue/cli-plugin-babel": "4.5.12",
+		"@vue/cli-plugin-eslint": "4.5.12",
+		"@vue/cli-plugin-vuex": "4.5.12",
+		"@vue/cli-service": "4.5.12",
+		"@vue/eslint-config-airbnb": "5.3.0",
+		"babel-eslint": "10.1.0",
+		"eslint": "6.8.0",
+		"eslint-plugin-import": "2.22.1",
+		"eslint-plugin-vue": "6.2.2",
+		"lint-staged": "10.5.4",
+		"node-sass": "4.14.1",
+		"sass": "1.32.8",
+		"sass-loader": "10.1.1",
+		"vue-cli-plugin-vuetify": "2.3.1",
+		"vue-template-compiler": "2.6.12",
+		"vuetify-loader": "1.7.2"
+	}
+}
